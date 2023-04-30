@@ -1,0 +1,29 @@
+.messenger {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  max-width: 1500px;
+  flex-direction: row;
+}
+
+.block-left {
+  padding: 2rem;
+  flex: 3;
+  background-color: rgb(212, 170, 205);
+  border: 2px solid #000;
+}
+
+.block-right {
+  padding: 2rem;
+  flex: 1;
+  background-color: rgb(47, 148, 161);
+  border: 2px solid #000;
+}
+
+.helpText{
+  align-items: center;
+  justify-content: center;
+  /* font-family: "Название красивого шрифта", sans-serif; */
+  font-size: 30px;
+  text-align: center;
+}
